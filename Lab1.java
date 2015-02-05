@@ -7,6 +7,7 @@ public class Lab1 {
 		int guess;
 		Scanner scan = new Scanner(System.in);
 		System.out.print("Enter a number between 1 and 10: ");
+		for (;;){
 		guess = scan.nextInt();
 		if (realnum ==guess){
 			System.out.print("You were right!");
@@ -14,5 +15,6 @@ public class Lab1 {
 			System.out.print("You were wrong, the number was "+realnum);
 		}
 	}
+}
 
 }
